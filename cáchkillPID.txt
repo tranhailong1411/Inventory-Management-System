@@ -1,0 +1,10 @@
+tìm PID
+netstat -ano | findstr :3306
+kill cổng
+taskkill /PID 3306 /F
+
+cách build từ py ra exe
+
+pip install pyinstaller
+
+pyinstaller --onefile your_script.py
